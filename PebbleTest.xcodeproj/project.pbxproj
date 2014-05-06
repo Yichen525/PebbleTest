@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90734A1191884AA000AFC5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734A0191884AA000AFC5F /* Foundation.framework */; };
+		B90734A3191884AA000AFC5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734A2191884AA000AFC5F /* CoreGraphics.framework */; };
+		B90734A5191884AA000AFC5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734A4191884AA000AFC5F /* UIKit.framework */; };
+		B90734AB191884AA000AFC5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90734A9191884AA000AFC5F /* InfoPlist.strings */; };
+		B90734AD191884AA000AFC5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90734AC191884AA000AFC5F /* main.m */; };
+		B90734B1191884AA000AFC5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90734B0191884AA000AFC5F /* AppDelegate.m */; };
+		B90734B4191884AA000AFC5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90734B2191884AA000AFC5F /* Main.storyboard */; };
+		B90734B7191884AA000AFC5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90734B6191884AA000AFC5F /* ViewController.m */; };
+		B90734B9191884AA000AFC5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90734B8191884AA000AFC5F /* Images.xcassets */; };
+		B90734C0191884AA000AFC5F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734BF191884AA000AFC5F /* XCTest.framework */; };
+		B90734C1191884AA000AFC5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734A0191884AA000AFC5F /* Foundation.framework */; };
+		B90734C2191884AA000AFC5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734A4191884AA000AFC5F /* UIKit.framework */; };
+		B90734CA191884AA000AFC5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90734C8191884AA000AFC5F /* InfoPlist.strings */; };
+		B90734CC191884AA000AFC5F /* PebbleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90734CB191884AA000AFC5F /* PebbleTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B90734C3191884AA000AFC5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9073495191884AA000AFC5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B907349C191884AA000AFC5F;
+			remoteInfo = PebbleTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B907349D191884AA000AFC5F /* PebbleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90734A0191884AA000AFC5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B90734A2191884AA000AFC5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B90734A4191884AA000AFC5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B90734A8191884AA000AFC5F /* PebbleTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PebbleTest-Info.plist"; sourceTree = "<group>"; };
+		B90734AA191884AA000AFC5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B90734AC191884AA000AFC5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B90734AE191884AA000AFC5F /* PebbleTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PebbleTest-Prefix.pch"; sourceTree = "<group>"; };
+		B90734AF191884AA000AFC5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B90734B0191884AA000AFC5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B90734B3191884AA000AFC5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B90734B5191884AA000AFC5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B90734B6191884AA000AFC5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B90734B8191884AA000AFC5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B90734BE191884AA000AFC5F /* PebbleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90734BF191884AA000AFC5F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B90734C7191884AA000AFC5F /* PebbleTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PebbleTestTests-Info.plist"; sourceTree = "<group>"; };
+		B90734C9191884AA000AFC5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B90734CB191884AA000AFC5F /* PebbleTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B907349A191884AA000AFC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90734A3191884AA000AFC5F /* CoreGraphics.framework in Frameworks */,
+				B90734A5191884AA000AFC5F /* UIKit.framework in Frameworks */,
+				B90734A1191884AA000AFC5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90734BB191884AA000AFC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90734C0191884AA000AFC5F /* XCTest.framework in Frameworks */,
+				B90734C2191884AA000AFC5F /* UIKit.framework in Frameworks */,
+				B90734C1191884AA000AFC5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9073494191884AA000AFC5F = {
+			isa = PBXGroup;
+			children = (
+				B90734A6191884AA000AFC5F /* PebbleTest */,
+				B90734C5191884AA000AFC5F /* PebbleTestTests */,
+				B907349F191884AA000AFC5F /* Frameworks */,
+				B907349E191884AA000AFC5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B907349E191884AA000AFC5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B907349D191884AA000AFC5F /* PebbleTest.app */,
+				B90734BE191884AA000AFC5F /* PebbleTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B907349F191884AA000AFC5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90734A0191884AA000AFC5F /* Foundation.framework */,
+				B90734A2191884AA000AFC5F /* CoreGraphics.framework */,
+				B90734A4191884AA000AFC5F /* UIKit.framework */,
+				B90734BF191884AA000AFC5F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B90734A6191884AA000AFC5F /* PebbleTest */ = {
+			isa = PBXGroup;
+			children = (
+				B90734AF191884AA000AFC5F /* AppDelegate.h */,
+				B90734B0191884AA000AFC5F /* AppDelegate.m */,
+				B90734B2191884AA000AFC5F /* Main.storyboard */,
+				B90734B5191884AA000AFC5F /* ViewController.h */,
+				B90734B6191884AA000AFC5F /* ViewController.m */,
+				B90734B8191884AA000AFC5F /* Images.xcassets */,
+				B90734A7191884AA000AFC5F /* Supporting Files */,
+			);
+			path = PebbleTest;
+			sourceTree = "<group>";
+		};
+		B90734A7191884AA000AFC5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B90734A8191884AA000AFC5F /* PebbleTest-Info.plist */,
+				B90734A9191884AA000AFC5F /* InfoPlist.strings */,
+				B90734AC191884AA000AFC5F /* main.m */,
+				B90734AE191884AA000AFC5F /* PebbleTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B90734C5191884AA000AFC5F /* PebbleTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B90734CB191884AA000AFC5F /* PebbleTestTests.m */,
+				B90734C6191884AA000AFC5F /* Supporting Files */,
+			);
+			path = PebbleTestTests;
+			sourceTree = "<group>";
+		};
+		B90734C6191884AA000AFC5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B90734C7191884AA000AFC5F /* PebbleTestTests-Info.plist */,
+				B90734C8191884AA000AFC5F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B907349C191884AA000AFC5F /* PebbleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90734CF191884AA000AFC5F /* Build configuration list for PBXNativeTarget "PebbleTest" */;
+			buildPhases = (
+				B9073499191884AA000AFC5F /* Sources */,
+				B907349A191884AA000AFC5F /* Frameworks */,
+				B907349B191884AA000AFC5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PebbleTest;
+			productName = PebbleTest;
+			productReference = B907349D191884AA000AFC5F /* PebbleTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B90734BD191884AA000AFC5F /* PebbleTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90734D2191884AA000AFC5F /* Build configuration list for PBXNativeTarget "PebbleTestTests" */;
+			buildPhases = (
+				B90734BA191884AA000AFC5F /* Sources */,
+				B90734BB191884AA000AFC5F /* Frameworks */,
+				B90734BC191884AA000AFC5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90734C4191884AA000AFC5F /* PBXTargetDependency */,
+			);
+			name = PebbleTestTests;
+			productName = PebbleTestTests;
+			productReference = B90734BE191884AA000AFC5F /* PebbleTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9073495191884AA000AFC5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yu Yichen";
+				TargetAttributes = {
+					B90734BD191884AA000AFC5F = {
+						TestTargetID = B907349C191884AA000AFC5F;
+					};
+				};
+			};
+			buildConfigurationList = B9073498191884AA000AFC5F /* Build configuration list for PBXProject "PebbleTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9073494191884AA000AFC5F;
+			productRefGroup = B907349E191884AA000AFC5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B907349C191884AA000AFC5F /* PebbleTest */,
+				B90734BD191884AA000AFC5F /* PebbleTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B907349B191884AA000AFC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90734B9191884AA000AFC5F /* Images.xcassets in Resources */,
+				B90734AB191884AA000AFC5F /* InfoPlist.strings in Resources */,
+				B90734B4191884AA000AFC5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90734BC191884AA000AFC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90734CA191884AA000AFC5F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9073499191884AA000AFC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90734B7191884AA000AFC5F /* ViewController.m in Sources */,
+				B90734B1191884AA000AFC5F /* AppDelegate.m in Sources */,
+				B90734AD191884AA000AFC5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90734BA191884AA000AFC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90734CC191884AA000AFC5F /* PebbleTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B90734C4191884AA000AFC5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B907349C191884AA000AFC5F /* PebbleTest */;
+			targetProxy = B90734C3191884AA000AFC5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B90734A9191884AA000AFC5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90734AA191884AA000AFC5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B90734B2191884AA000AFC5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90734B3191884AA000AFC5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B90734C8191884AA000AFC5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90734C9191884AA000AFC5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B90734CD191884AA000AFC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B90734CE191884AA000AFC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90734D0191884AA000AFC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleTest/PebbleTest-Prefix.pch";
+				INFOPLIST_FILE = "PebbleTest/PebbleTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B90734D1191884AA000AFC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleTest/PebbleTest-Prefix.pch";
+				INFOPLIST_FILE = "PebbleTest/PebbleTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B90734D3191884AA000AFC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PebbleTest.app/PebbleTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleTest/PebbleTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PebbleTestTests/PebbleTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B90734D4191884AA000AFC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PebbleTest.app/PebbleTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleTest/PebbleTest-Prefix.pch";
+				INFOPLIST_FILE = "PebbleTestTests/PebbleTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9073498191884AA000AFC5F /* Build configuration list for PBXProject "PebbleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90734CD191884AA000AFC5F /* Debug */,
+				B90734CE191884AA000AFC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90734CF191884AA000AFC5F /* Build configuration list for PBXNativeTarget "PebbleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90734D0191884AA000AFC5F /* Debug */,
+				B90734D1191884AA000AFC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B90734D2191884AA000AFC5F /* Build configuration list for PBXNativeTarget "PebbleTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90734D3191884AA000AFC5F /* Debug */,
+				B90734D4191884AA000AFC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9073495191884AA000AFC5F /* Project object */;
+}
