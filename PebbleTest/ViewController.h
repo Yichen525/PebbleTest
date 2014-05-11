@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<PBPebbleCentralDelegate>
+
+- (IBAction)didTapStart:(UIButton *)sender;
+- (IBAction)didTapEnd:(UIButton *)sender;
+- (IBAction)didTapGetInfo:(UIButton *)sender;
+- (IBAction)didTapSendInfo:(UIButton *)sender;
 
 @end

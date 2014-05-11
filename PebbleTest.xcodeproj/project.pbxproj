@@ -21,6 +21,14 @@
 		B90734C2191884AA000AFC5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734A4191884AA000AFC5F /* UIKit.framework */; };
 		B90734CA191884AA000AFC5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B90734C8191884AA000AFC5F /* InfoPlist.strings */; };
 		B90734CC191884AA000AFC5F /* PebbleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90734CB191884AA000AFC5F /* PebbleTestTests.m */; };
+		B90734D61918850B000AFC5F /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734D51918850B000AFC5F /* PebbleKit.framework */; };
+		B90734D81918853F000AFC5F /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734D71918853F000AFC5F /* PebbleVendor.framework */; };
+		B90734E5191885E2000AFC5F /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734D919188571000AFC5F /* ExternalAccessory.framework */; };
+		B90734E6191885EF000AFC5F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734DB1918857F000AFC5F /* libz.dylib */; };
+		B90734E7191885F6000AFC5F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734DD1918858A000AFC5F /* CoreBluetooth.framework */; };
+		B90734E819188600000AFC5F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734DF19188594000AFC5F /* CoreMotion.framework */; };
+		B90734E91918860A000AFC5F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734E11918859E000AFC5F /* CFNetwork.framework */; };
+		B90734EA19188618000AFC5F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90734E3191885A6000AFC5F /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		B90734C7191884AA000AFC5F /* PebbleTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PebbleTestTests-Info.plist"; sourceTree = "<group>"; };
 		B90734C9191884AA000AFC5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B90734CB191884AA000AFC5F /* PebbleTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleTestTests.m; sourceTree = "<group>"; };
+		B90734D51918850B000AFC5F /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleKit.framework; sourceTree = "<group>"; };
+		B90734D71918853F000AFC5F /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
+		B90734D919188571000AFC5F /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		B90734DB1918857F000AFC5F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B90734DD1918858A000AFC5F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B90734DF19188594000AFC5F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B90734E11918859E000AFC5F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B90734E3191885A6000AFC5F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +76,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90734EA19188618000AFC5F /* MessageUI.framework in Frameworks */,
+				B90734E91918860A000AFC5F /* CFNetwork.framework in Frameworks */,
+				B90734E819188600000AFC5F /* CoreMotion.framework in Frameworks */,
+				B90734E7191885F6000AFC5F /* CoreBluetooth.framework in Frameworks */,
+				B90734E6191885EF000AFC5F /* libz.dylib in Frameworks */,
+				B90734E5191885E2000AFC5F /* ExternalAccessory.framework in Frameworks */,
 				B90734A3191884AA000AFC5F /* CoreGraphics.framework in Frameworks */,
+				B90734D81918853F000AFC5F /* PebbleVendor.framework in Frameworks */,
+				B90734D61918850B000AFC5F /* PebbleKit.framework in Frameworks */,
 				B90734A5191884AA000AFC5F /* UIKit.framework in Frameworks */,
 				B90734A1191884AA000AFC5F /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +125,14 @@
 		B907349F191884AA000AFC5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B90734E3191885A6000AFC5F /* MessageUI.framework */,
+				B90734E11918859E000AFC5F /* CFNetwork.framework */,
+				B90734DF19188594000AFC5F /* CoreMotion.framework */,
+				B90734DD1918858A000AFC5F /* CoreBluetooth.framework */,
+				B90734DB1918857F000AFC5F /* libz.dylib */,
+				B90734D919188571000AFC5F /* ExternalAccessory.framework */,
+				B90734D71918853F000AFC5F /* PebbleVendor.framework */,
+				B90734D51918850B000AFC5F /* PebbleKit.framework */,
 				B90734A0191884AA000AFC5F /* Foundation.framework */,
 				B90734A2191884AA000AFC5F /* CoreGraphics.framework */,
 				B90734A4191884AA000AFC5F /* UIKit.framework */,
@@ -199,6 +231,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Yu Yichen";
 				TargetAttributes = {
+					B907349C191884AA000AFC5F = {
+						DevelopmentTeam = CLK6U6C66H;
+					};
 					B90734BD191884AA000AFC5F = {
 						TestTargetID = B907349C191884AA000AFC5F;
 					};
@@ -333,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,9 +411,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PebbleTest/PebbleTest-Prefix.pch";
 				INFOPLIST_FILE = "PebbleTest/PebbleTest-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,9 +430,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PebbleTest/PebbleTest-Prefix.pch";
 				INFOPLIST_FILE = "PebbleTest/PebbleTest-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
