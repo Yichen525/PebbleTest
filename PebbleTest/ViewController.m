@@ -120,10 +120,10 @@
             
             updateHandle =
             [myWatch appMessagesAddReceiveUpdateHandler:^BOOL(PBWatch *watch, NSDictionary *update) {
-                NSLog(@"Received message: %d", [[update objectForKey:@(526)] intValue]);
-                NSLog(@"Received message: %d", [[update objectForKey:@(527)] intValue]);
-                NSLog(@"Received message: %d", [[update objectForKey:@(528)] intValue]);
-                NSLog(@"Received message: %d", [[update objectForKey:@(529)] intValue]);
+                NSLog(@"Level: %d", [[update objectForKey:@(526)] intValue]);
+                NSLog(@"Experience: %d", [[update objectForKey:@(527)] intValue]);
+                NSLog(@"Credit: %d", [[update objectForKey:@(528)] intValue]);
+                NSLog(@"Credit cents: %d", [[update objectForKey:@(529)] intValue]);
                 return YES;
             }];
             
@@ -158,6 +158,55 @@
         }
     }];
 
+}
+
+- (IBAction)setLevel:(UIButton *)sender {
+    
+    NSLog(@"The level you are going to set is %d", (int)sender.tag);
+    
+    NSDictionary *update = @{ @(1):[NSNumber numberWithInt8:(int)sender.tag]};
+    [myWatch appMessagesPushUpdate:update onSent:^(PBWatch *watch, NSDictionary *update, NSError *error) {
+        if (!error) {
+            NSLog(@"Successfully sent message.");
+            
+        }
+        else {
+            NSLog(@"Error sending message: %@", error);
+        }
+    }];
+
+}
+
+- (IBAction)changeExp:(UIButton *)sender {
+    
+    NSLog(@"The change applied to exp is %d", (int)sender.tag);
+    
+    NSDictionary *update = @{ @(2):[NSNumber numberWithInt32:(int)sender.tag]};
+    [myWatch appMessagesPushUpdate:update onSent:^(PBWatch *watch, NSDictionary *update, NSError *error) {
+        if (!error) {
+            NSLog(@"Successfully sent message.");
+            
+        }
+        else {
+            NSLog(@"Error sending message: %@", error);
+        }
+    }];
+}
+
+- (IBAction)changeCredit:(UIButton *)sender {
+    
+    NSLog(@"The change applied to credit is %d", (int)sender.tag);
+    
+    NSDictionary *update = @{ @(3):[NSNumber numberWithInt32:(int)sender.tag]};
+    [myWatch appMessagesPushUpdate:update onSent:^(PBWatch *watch, NSDictionary *update, NSError *error) {
+        if (!error) {
+            NSLog(@"Successfully sent message.");
+            
+        }
+        else {
+            NSLog(@"Error sending message: %@", error);
+        }
+    }];
 }
 
 

@@ -15,4 +15,8 @@
 - (IBAction)didTapGetInfo:(UIButton *)sender;
 - (IBAction)didTapSendInfo:(UIButton *)sender;
 
+- (IBAction)setLevel:(UIButton *)sender;
+- (IBAction)changeExp:(UIButton *)sender;
+- (IBAction)changeCredit:(UIButton *)sender;
+
 @end
